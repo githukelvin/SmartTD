@@ -1,6 +1,6 @@
 import Web3 from 'web3'
-import RegistryABI from '../../../hardhat/artifacts/contracts/LandRegistry.sol/LandRegistry.json' assert { type: 'json' }
-import SaleABI from '../../../hardhat/artifacts/contracts/LandSale.sol/LandSale.json' assert { type: 'json' }
+import RegistryABI from '../../artifacts/contracts/LandRegistry.sol/LandRegistry.json' assert { type: 'json' }
+import SaleABI from '../../artifacts/contracts/LandSale.sol/LandSale.json' assert { type: 'json' }
 import { environment } from './config.js'
 // Replace with your Ethereum node URL
 const web3 = new Web3('https://sepolia.base.org')
